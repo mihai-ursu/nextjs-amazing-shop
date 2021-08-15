@@ -42,6 +42,14 @@ const Typography = createGlobalStyle`
     margin-bottom: 0.5em;
   }
 
+  a,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: 700;
+  }
+
   input[type="text"],
   input[type="email"],
   input[type="tel"],
@@ -103,10 +111,6 @@ const Typography = createGlobalStyle`
     color: var(--color-light-gray);
     font-size: var(--font-base-size);
     line-height: var(--font-base-line-height);
-  }
-
-  a {
-    font-weight: 300;
   }
 
   .mb-1{

@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import Layout from "../components/Layout";
 
-const Home: NextPage = () => {
+const Support: NextPage = () => {
   return (
-    <Layout pageTitle="Homepage">
-      <h1>Homepage</h1>
+    <Layout pageTitle="Support">
+      <h1>Support</h1>
     </Layout>
   );
 };
 
-export default Home;
+export default Support;

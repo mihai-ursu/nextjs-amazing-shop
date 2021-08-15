@@ -3,7 +3,7 @@ import Grid from "./grid/Grid";
 import MaxWidthSection from "./grid/MaxWidthSection";
 import Row from "./grid/Row";
 import Head from "next/head";
-// import Header from './Header';
+import Header from "./Header";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -19,7 +19,7 @@ const Layout = ({ children, pageTitle }: LayoutProps) => {
         <meta name="description" content="A very cool ecommerce website" />
       </Head>
       <Grid>
-        {/* <Header /> */}
+        <Header />
         <MaxWidthSection>
           <Row>
             <main>{children}</main>
